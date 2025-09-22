@@ -21,9 +21,9 @@ POST /auth/register
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "password123"
+  "name": "tejas patil",
+  "email": "tejaspatil@gmail.com",
+  "password": "12345678"
 }
 ```
 

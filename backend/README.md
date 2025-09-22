@@ -39,9 +39,7 @@ npm install
 ```bash
 npm run setup
 ```
-This creates default admin:
-- Email: `admin@loan.com`
-- Password: `admin123456`
+
 
 ### **3. Start Server**
 ```bash
@@ -50,7 +48,7 @@ npm start
 npm run dev
 ```
 
-Server runs on: `http://localhost:5000`
+Server runs on: `http://localhost:4000`
 
 ## 📋 **API ENDPOINTS**
 
@@ -76,8 +74,8 @@ curl -X POST http://localhost:5000/api/auth/register \
 -H "Content-Type: application/json" \
 -d '{
   "name": "John Doe",
-  "email": "john@example.com",
-  "password": "password123"
+  "email": "tejas@gmail.com",
+  "password": "12345678"
 }'
 ```
 
@@ -86,20 +84,12 @@ curl -X POST http://localhost:5000/api/auth/register \
 curl -X POST http://localhost:5000/api/auth/login \
 -H "Content-Type: application/json" \
 -d '{
-  "email": "john@example.com",
-  "password": "password123"
+  "email": "tejas@gmail.com",
+  "password": "123456789"
 }'
 ```
 
-### **3. Test Admin Login**
-```bash
-curl -X POST http://localhost:5000/api/admin/login \
--H "Content-Type: application/json" \
--d '{
-  "email": "admin@loan.com",
-  "password": "admin123456"
-}'
-```
+
 
 ## 📊 **SYSTEM FLOW**
 
@@ -158,8 +148,5 @@ backend/
 
 The system is fully functional and ready for frontend integration. Your friend can work on the fraud detection services while the core application system is complete and working!
 
-**Default Admin Login:**
-- Email: admin@loan.com
-- Password: admin123456
 
-**Server URL:** http://localhost:5000
+**Server URL:** http://localhost:4000

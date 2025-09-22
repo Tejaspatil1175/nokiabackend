@@ -24,6 +24,8 @@ const createDefaultAdmin = async () => {
   console.log("Use POST /api/admin/register-super-admin to create your first super admin.");
   console.log("Refer to SUPERADMIN_API.md for detailed instructions.");
 };
+// const adminEmail = process.env.DEFAULT_ADMIN_EMAIL || "http://localhost:4000";
+// const adminPassword = process.env.DEFAULT_ADMIN_PASSWORD || "12345678";
 
 // Run setup
 const runSetup = async () => {
